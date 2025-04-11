@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Search, ShoppingCart, Heart, BarChart2, Menu, X, User } from 'lucide-react';
 import CountrySelector from './CountrySelector';
@@ -42,7 +41,6 @@ const Header = () => {
             </div>
           </div>
           
-          {/* Country selector */}
           <div className="hidden lg:block">
             <CountrySelector />
           </div>
